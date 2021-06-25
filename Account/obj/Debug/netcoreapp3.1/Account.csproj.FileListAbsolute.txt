@@ -1,0 +1,12 @@
+/Users/ryanneal/Projects/BankAccount/Account/bin/Debug/netcoreapp3.1/Account.deps.json
+/Users/ryanneal/Projects/BankAccount/Account/bin/Debug/netcoreapp3.1/Account.runtimeconfig.json
+/Users/ryanneal/Projects/BankAccount/Account/bin/Debug/netcoreapp3.1/Account.runtimeconfig.dev.json
+/Users/ryanneal/Projects/BankAccount/Account/bin/Debug/netcoreapp3.1/Account.dll
+/Users/ryanneal/Projects/BankAccount/Account/bin/Debug/netcoreapp3.1/Account.pdb
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.csproj.AssemblyReference.cache
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.AssemblyInfoInputs.cache
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.AssemblyInfo.cs
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.csproj.CoreCompileInputs.cache
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.dll
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.pdb
+/Users/ryanneal/Projects/BankAccount/Account/obj/Debug/netcoreapp3.1/Account.genruntimeconfig.cache
