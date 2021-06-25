@@ -20,34 +20,38 @@ namespace Account
             this.Balance = balance;
         }
 
+        
         public void Debit(int amount)
+        /** The debit method throws an ArgumentOutOfRangeException
+         * if the user withdraws more money than in their account
+         * 
+         * The method also throws an ArgumentOutOfRangeException if 
+         * the user withdraws negative money
+         * 
+         * If no exception is thrown, the user's balance should 
+         * subtract amount
+         **/
         {
-            if (this.Balance - amount < 0)
-            {
-                throw new ArgumentOutOfRangeException("Not enough money in your account");
-            }
-            if (amount < 0)
-            {
-                throw new ArgumentOutOfRangeException("You can't remove negative money");
-            }
-            this.Balance -= amount;
+            
         }
 
         public void Credit(int amount)
+        /** The credit method throws an ArgumentOutOfRangeException if 
+         * the user adds negative money
+         * 
+         * If no exception is thrown, the user's balance should 
+         * add amount
+         **/
         {
-            if (amount < 0)
-            {
-                throw new ArgumentOutOfRangeException("You can't add negative money");
-            }
-            this.Balance += amount;
+            
         }
 
         public void ChangeType(string type)
         {
-            if (type.ToLower().Equals("checkings") | type.ToLower().Equals("savings"))
-            {
-                this.Type = type.ToLower();
-            }
+         /** The change type method changes this.Type as long as the user inputs 
+          * checkings or savings
+         **/
+            
         }
     }
 }
